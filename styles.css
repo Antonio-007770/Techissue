@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carousel img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Botões do carrossel */
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Definindo o estilo para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-btn {
+    display: inline-block;
+    background-color: #00aaff;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+header .cta-btn:hover {
+    background-color: #0088cc;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #003366;
+}
+
+/* Estilo de formulários */
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0088cc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+}
